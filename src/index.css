@@ -1,0 +1,63 @@
+* , *::before, *::after{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --baseColor: #fff;
+}
+
+body {
+  font-family: 'Lato', sans-serif; 
+  padding: 2.4rem 1.4rem;
+  border-radius: 10px ;
+  background:  #d2d2d2b0;
+  color: #444;
+}
+
+
+@media (max-width: 1220px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media (max-width:1010px) {
+  html {
+    font-size: 51%;
+  }
+}
+
+@media (max-width:605px){
+
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width:545px){
+
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width:495px){
+
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (min-width:1350px) {
+
+  body { 
+    padding: 2.6rem 2.2rem;
+  }
+  
+}

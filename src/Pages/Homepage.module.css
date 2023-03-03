@@ -1,0 +1,8 @@
+.homepage {
+    margin: 1.5rem auto;
+    border-radius: 20px;
+    /* height: 80vh; */
+    background-color: var(--baseColor);
+    padding-bottom: 4rem;
+    max-width: 1500px;
+}

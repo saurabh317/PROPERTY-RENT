@@ -1,0 +1,35 @@
+.wishlistItem {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 2.1rem;
+ padding: 1.2rem;
+ border-bottom: 1px solid #9999997d;
+}
+
+.name {
+ color: #df9101;
+ font-weight: bold;
+}
+
+.price {
+    display: flex;
+    font-size: 1.9rem;
+    font-weight: 600;
+    align-items: center;
+    column-gap: .3rem;
+}
+
+
+.price span {
+  display: flex;
+  align-items: center;
+}
+
+.price ion-icon {
+     cursor: pointer;
+    font-weight: bold;
+   padding-left: .4rem;
+  font-size: 2.6rem;  
+ color: rgb(212, 0, 0);
+}
